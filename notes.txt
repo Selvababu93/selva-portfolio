@@ -1,0 +1,20 @@
+npm create vite@latest
+
+
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+
+=> for icons npm install @remixicon/react
+=> for react icons npm install react-icons --save
+=> for iconify icons npm install @iconify/react
+
+rafce => for react boiler plate
+
+
+=> for iconify icons npm install @iconify/react
+=> for iconify icons https://icon-sets.iconify.design/logos/?icon-filter=hugging&keyword=logos
+
+import { Icon } from '@iconify/react';
+<Icon icon="logos:javascript" width="50" />
+
+=> for assets https://www.cleanpng.com/png-gps-navigation-systems-vehicle-tracking-system-gps-2856125/
