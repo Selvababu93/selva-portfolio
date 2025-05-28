@@ -13,7 +13,7 @@ const Footer = () => {
         Contact
     </h3>
     <h3 className="text-sm md:text-2xl font-normal">
-        Feel free to rech me out!!!!
+        Feel free to reach me out!!!!
     </h3>
     </div>    
     <ul className="text-sm md:text-xl">
