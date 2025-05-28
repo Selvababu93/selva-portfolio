@@ -18,3 +18,5 @@ import { Icon } from '@iconify/react';
 <Icon icon="logos:javascript" width="50" />
 
 => for assets https://www.cleanpng.com/png-gps-navigation-systems-vehicle-tracking-system-gps-2856125/
+
+=> for github pages npm install gh-pages
