@@ -17,19 +17,39 @@ const Footer = () => {
     </h3>
     </div>    
     <ul className="text-sm md:text-xl">
-        <li className="flex gap-1 items-center">
-            <MdOutlineEmail size={20} />
-            selvababuarikaran@gmail.com
-        </li>
-        <li className="flex gap-1 items-center">
-            <CiLinkedin size={20} />
-            https://www.linkedin.com/in/selvababu-arikaran-a5a912aa/
-        </li>
-        <li className="flex gap-1 items-center">
-            <FaGithub size={20} />
-            https://github.com/Selvababu93
-        </li>
-    </ul>
+  <li className="flex gap-1 items-center">
+    <MdOutlineEmail size={20} />
+    <a
+      href="mailto:selvababuarikaran@gmail.com"
+      className="hover:underline text-blue-300"
+    >
+      selvababuarikaran@gmail.com
+    </a>
+  </li>
+  <li className="flex gap-1 items-center">
+    <CiLinkedin size={20} />
+    <a
+      href="https://www.linkedin.com/in/selvababu-arikaran-a5a912aa/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:underline text-blue-300"
+    >
+      linkedin.com/in/selvababu-arikaran-a5a912aa/
+    </a>
+  </li>
+  <li className="flex gap-1 items-center">
+    <FaGithub size={20} />
+    <a
+      href="https://github.com/Selvababu93"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:underline text-blue-300"
+    >
+      github.com/Selvababu93
+    </a>
+  </li>
+</ul>
+
     </div>
   )
 }
