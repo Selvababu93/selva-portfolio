@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon } from "@iconify/react"
+import deiLogo from "../../assets/deilogo.png"
 
 
 
@@ -67,21 +68,42 @@ const Experience = () => {
                                 {/* Company 1 */}
 
             <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-                <Icon icon="logos:google" size={50} />
-                <span className="text-white">
-                    <h2 className="leading-tight">IT Engineer, DEI</h2>
-                    <p className="text-sm leading-tight font-thin">
-                        December 2020 - Present
-                    </p>
-                    <ul className="text-sm p-2">
-                        <li>- Work as a </li>
-                        <li>Work as a</li>
-                    </ul>
-                </span>
+            <img src={deiLogo} alt="Company Logo" width={50} height={50} />
+
+            <div className="text-white">
+                <h2 className="leading-tight text-lg font-semibold">IT Engineer, DEI</h2>
+                <p className="text-sm leading-tight font-thin">
+                December 2020 - Present
+                </p>
+                <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+                <li>
+                    Managed end-to-end IT infrastructure, ensuring &gt;99% uptime for imaging servers and deployments across global sites.
+                </li>
+                <li>
+                    Provided comprehensive Tier 1–3 IT support across hardware, software, networking, printers, barcode/QR devices, and media servers.
+                </li>
+                <li>
+                    Automated repetitive tasks via Python scripts, enhancing camera control, device tagging, media transfers, and system operations.
+                </li>
+                <li>
+                    Designed and deployed custom camera control systems (DSLR/GoPro) using Raspberry Pi and Windows, tailored for rides and attractions.
+                </li>
+                <li>
+                    Developed MDM-based device rollout strategies and supported mixed Wi-Fi/wired camera capture networks.
+                </li>
+                <li>
+                    Built PyQt5/PySide6-based desktop applications for media preview, tagging, and camera control panels.
+                </li>
+                <li>
+                    Integrated PLCs and network/web relay triggers for automated, sensor-based camera operations.
+                </li>
+                </ul>
             </div>
+            </div>
+
 
                             {/* Company 2 */}
-            <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            {/* <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
                 <Icon icon="logos:google" size={50} />
                 <span className="text-white">
                     <h2 className="leading-tight">IT Engineer, DEI</h2>
@@ -93,10 +115,10 @@ const Experience = () => {
                         <li>Work as a</li>
                     </ul>
                 </span>
-            </div>
+            </div> */}
 
                             {/* Company 3 */}
-            <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            {/* <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
                 <Icon icon="logos:google" size={50} />
                 <span className="text-white">
                     <h2 className="leading-tight">IT Engineer, DEI</h2>
@@ -108,7 +130,7 @@ const Experience = () => {
                         <li>Work as a</li>
                     </ul>
                 </span>
-            </div>
+            </div> */}
 
             </div>
         </div>

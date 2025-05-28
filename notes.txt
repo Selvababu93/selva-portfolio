@@ -20,3 +20,7 @@ import { Icon } from '@iconify/react';
 => for assets https://www.cleanpng.com/png-gps-navigation-systems-vehicle-tracking-system-gps-2856125/
 
 => for github pages npm install gh-pages
+
+update professional details
+add project details
+enhance the email address and social media handle
