@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import usbRelay from "../../assets/pcbboard.png";
-import thumbnailImg from "../../assets/photographer.png";
+import thumbnailImg from "../../assets/thumbnailImage.png";
 import codingImg from "../../assets/coder.png";
 const Projects = () => {
   return (
@@ -20,7 +20,7 @@ const Projects = () => {
 
         {/* Project cards */}
         <ProjectCard
-          projectImg={videoThumbnailBackup}
+          projectImg={thumbnailImg}
           title={"🎞️ Video Thumbnail & Backup Tool"}
           main={`A desktop tool that auto-generates video thumbnails, embeds them using FFmpeg, and organizes backups. Built with PySide6, MoviePy & Watchdog.`}
         />
