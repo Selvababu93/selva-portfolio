@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import usbRelay from "../../assets/pcbboard.png";
 import thumbnailImg from "../../assets/thumbnailImage.png";
-import codingImg from "../../assets/coder.png";
+import gestureImg from "../../assets/peace.png";
 const Projects = () => {
   return (
     <div id="Projects" className="p-10 md:p-24 text-white">
@@ -27,11 +27,12 @@ const Projects = () => {
 
         {/* Project cards */}
         <ProjectCard
-          projectImg={codingImg}
-          title={"Usb Relay"}
-          main={`USB relay modules with GPIOs and analog
-                inputs offer a versatile solution for
-                 controlling and monitoring various devices.`}
+          projectImg={gestureImg}
+          title={"🧠 Gesture-Triggered DSLR Capture"}
+          main={`Developed a hygiene-friendly camera system that
+             captures photos based on hand gestures. 
+             Used in public attractions.
+`}
         />
       </div>
     </div>
