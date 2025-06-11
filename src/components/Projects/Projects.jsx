@@ -28,7 +28,7 @@ const Projects = () => {
         {/* Project cards */}
         <ProjectCard
           projectImg={gestureImg}
-          title={"🧠 Gesture-Triggered DSLR Capture"}
+          title={"🧠 Gesture-Controlled DSLR Trigger System"}
           main={`Developed a hygiene-friendly camera system that
              captures photos based on hand gestures. 
              Used in public attractions.
