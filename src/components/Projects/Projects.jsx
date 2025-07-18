@@ -6,6 +6,7 @@ import gestureImg from "../../assets/peace.png";
 import bgRemoval from "../../assets/bgRemoval.jpg";
 import videoSolution from "../../assets/videoSolution.jpg";
 import goPro from "../../assets/goPro.jpg";
+import customCamera from "../../assets/customCamera";
 
 const Projects = () => {
     return (
@@ -25,29 +26,35 @@ const Projects = () => {
                 <ProjectCard
                     projectImg={videoSolution}
                     title={"Video Solution for Theme Parks"}
-                    main={`A smart slow-motion video capture system using Sony cameras and PLCs for water park rides. Field sensors trigger the system wirelessly due to cable limitations. Post-processing includes adding branded intros/outros before delivering the final video.`}
+                    main={`A fully automated, remotely controlled slow-motion video capture system engineered specifically for water park rides, where traditional wired infrastructure is not feasible. The system is designed to capture high-frame-rate video and utilizes a Siemens PLC to record high-quality slow-motion footage of riders at key action points.
+
+The entire process is triggered through a wireless field sensor network, eliminating the need for physical cabling and enabling seamless integration into existing ride structures.`}
                 />
                 {/* Project cards */}
                 <ProjectCard
                     projectImg={goPro}
                     title={"GoPro Automation"}
-                    main={`Automated GoPro-based photo/video capture system triggered via sensor. Includes custom hardware/software to remotely power on/off, trigger shots, and post-process media with intros and outros for professional delivery.`}
+                    main={`An automated remotely controlled GoPro photo and video capture system triggered by sensors. Combines custom hardware and software for fully remote operation, including automated post-processing with branded intros and outros for professional-quality media delivery.`}
+                />
+
+                <ProjectCard
+                    projectImg={customCamera}
+                    title={"Custom Camera Capture"}
+                    main={`Remote-triggered camera system for attractions and events that captures photos and videos simultaneously. Triggering can be done manually via a clicker or fully automated using the latest generation technology, with media automatically routed to designated folders or servers.`}
                 />
                 {/* ------------------------------------- */}
                 {/* Project cards */}
                 <ProjectCard
                     projectImg={usbRelay}
-                    title={"Usb Relay"}
-                    main={`USB relay modules with GPIOs and analog
-								inputs offer a versatile solution for
-								 controlling and monitoring various devices.`}
+                    title={"Remote I/O Controller"}
+                    main={`A plug‑and‑play module featuring relays, GPIO lines, and analog inputs—offering a flexible, reliable solution for remotely controlling and monitoring various devices in real time.`}
                 />
 
                 {/* Project cards */}
                 <ProjectCard
                     projectImg={thumbnailImg}
                     title={"🎞️ Video Thumbnail & Backup Tool"}
-                    main={`A desktop tool that auto-generates video thumbnails, embeds them using FFmpeg, and organizes backups. Built with PySide6, MoviePy & Watchdog.`}
+                    main={`A desktop utility that automatically generates video thumbnails—either at a chosen timestamp or by detecting faces—embeds them into the files, and organizes backups for streamlined media management with minimal user input`}
                 />
 
                 {/* Project cards */}
