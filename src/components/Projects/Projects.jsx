@@ -6,7 +6,7 @@ import gestureImg from "../../assets/peace.png";
 import bgRemoval from "../../assets/bgRemoval.jpg";
 import videoSolution from "../../assets/videoSolution.jpg";
 import goPro from "../../assets/goPro.jpg";
-import customCamera from "../../assets/customCamera";
+import customCamera from "../../assets/customCamera.jpg";
 
 const Projects = () => {
     return (
